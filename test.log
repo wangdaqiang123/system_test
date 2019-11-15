@@ -67,4 +67,70 @@ test result :
 ===============================
 OK 
 
+2019-11-15 
+
+
+------------------------------ Scenario Screen -------- [1-9]: Change Screen --
+  Call-rate(length)   Port   Total-time  Total-calls  Remote-host
+ 100.0(0 ms)/1.000s   5061    2238.89 s       223889  192.168.1.107:5060(UDP)
+
+  101 new calls during 1.004 s period    0 ms scheduler resolution
+  0 calls (limit 300)                    Peak was 1 calls, after 0 s
+  0 Running, 3303 Paused, 204 Woken up
+  230142 dead call msg (discarded)       0 out-of-call msg (discarded)        
+  3 open sockets                        
+
+                                 Messages  Retrans   Timeout   Unexpected-Msg
+     MESSAGE ---------->         223889    8         0                  
+         200 <----------  E-RTD1 223889    0         0         0        
+------ [+|-|*|/]: Adjust rate ---- [q]: Soft exit ---- [p]: Pause traffic -----
+
+Last Error: Dead call 223888-19519@192.168.1.107 (successful), received ...
+------------------------------ Scenario Screen -------- [1-9]: Change Screen --
+  Call-rate(length)   Port   Total-time  Total-calls  Remote-host
+ 100.0(0 ms)/1.000s   5061    2239.85 s       223984  192.168.1.107:5060(UDP)
+
+  0 new calls during 0.000 s period      0 ms scheduler resolution
+  0 calls (limit 300)                    Peak was 1 calls, after 0 s
+  0 Running, 3304 Paused, 0 Woken up
+  230236 dead call msg (discarded)       0 out-of-call msg (discarded)        
+  0 open sockets                        
+
+                                 Messages  Retrans   Timeout   Unexpected-Msg
+     MESSAGE ---------->         223984    8         0                  
+         200 <----------  E-RTD1 223984    0         0         0        
+------------------------------ Test Terminated --------------------------------
+
+
+----------------------------- Statistics Screen ------- [1-9]: Change Screen --
+  Start Time             | 2019-11-15	09:58:33.402791	1573783113.402791         
+  Last Reset Time        | 2019-11-15	10:35:53.257175	1573785353.257175         
+  Current Time           | 2019-11-15	10:35:53.257428	1573785353.257428         
+-------------------------+---------------------------+--------------------------
+  Counter Name           | Periodic value            | Cumulative value
+-------------------------+---------------------------+--------------------------
+  Elapsed Time           | 00:00:00:000000           | 00:37:19:854000          
+  Call Rate              |    0.000 cps              |   99.999 cps             
+-------------------------+---------------------------+--------------------------
+  Incoming call created  |        0                  |        0                 
+  OutGoing call created  |        0                  |   223984                 
+  Total Call created     |                          |   223984                 
+  Current Call           |        0                  |                          
+-------------------------+---------------------------+--------------------------
+  Successful call        |        0                  |   223984                 
+  Failed call            |        0                  |        0                 
+-------------------------+---------------------------+--------------------------
+  Response Time 1        | 00:00:00:000000           | 00:00:00:000000          
+  Call Length            | 00:00:00:000000           | 00:00:00:000000          
+------------------------------ Test Terminated --------------------------------
+
+
+2019-11-15	10:35:53.246209	1573785353.246209: Dead call 223982-19519@192.168.1.107 (successful), received 'SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.1.107:5061;branch=z9hG4bK-19519-223982-0
+Call-ID: 223982-19519@192.168.1.107
+From: "sipp" <sip:sipp@192.168.1.107>;tag=19519SIPpTag00223982
+To: "sut" <sip:1003@192.168.1.107>;tag=z9hG4bK372b.2c503e7defdc744fa84e21250845caf6.0
+CSeq: 1 MESSAGE
+Content-Length:  0
+
 
