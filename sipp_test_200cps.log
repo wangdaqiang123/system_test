@@ -1,0 +1,37 @@
+
+----------------------------- Statistics Screen ------- [1-9]: Change Screen --
+  Start Time             | 2019-11-15	11:31:15.213920	1573788675.213920         
+  Last Reset Time        | 2019-11-15	11:32:08.164942	1573788728.164942         
+  Current Time           | 2019-11-15	11:32:08.165143	1573788728.165143         
+-------------------------+---------------------------+--------------------------
+  Counter Name           | Periodic value            | Cumulative value
+-------------------------+---------------------------+--------------------------
+  Elapsed Time           | 00:00:00:000000           | 00:00:52:951000          
+  Call Rate              |    0.000 cps              |  199.958 cps   <------------- 200 CPS             
+-------------------------+---------------------------+--------------------------
+  Incoming call created  |        0                  |        0                 
+  OutGoing call created  |        0                  |    10588                 
+  Total Call created     |                          |    10588                 
+  Current Call           |        0                  |                          
+-------------------------+---------------------------+--------------------------
+  Successful call        |        0                  |    10588                 
+  Failed call            |        0                  |        0                 
+-------------------------+---------------------------+--------------------------
+  Response Time 1        | 00:00:00:000000           | 00:00:00:000000          
+  Call Length            | 00:00:00:000000           | 00:00:00:000000          
+------------------------------ Test Terminated --------------------------------
+
+pjsua:  logout : 
+
+11:32:08.107            pjsua_app.c  .MSG_COUNT: 10578
+11:32:08.111            pjsua_app.c  .MSG_COUNT: 10579
+11:32:08.119            pjsua_app.c  .MSG_COUNT: 10580
+11:32:08.123            pjsua_app.c  .MSG_COUNT: 10581
+11:32:08.128            pjsua_app.c  .MSG_COUNT: 10582
+11:32:08.131            pjsua_app.c  .MSG_COUNT: 10583
+11:32:08.139            pjsua_app.c  .MSG_COUNT: 10584
+11:32:08.142            pjsua_app.c  .MSG_COUNT: 10585
+11:32:08.147            pjsua_app.c  .MSG_COUNT: 10586
+11:32:08.151            pjsua_app.c  .MSG_COUNT: 10587
+11:32:08.159            pjsua_app.c  .MSG_COUNT: 10588  <------ pjsua  received MESSAGE number  
+
