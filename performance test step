@@ -1,0 +1,14 @@
+step 1:        start pjsua:   
+              # cd $PJSUA_DIR
+               #./pjsua --config-file=pua_tcp.cfg
+               start sipp: 
+                #cd $SIPP_DIR 
+                # ./sipp_send_msg_1001.sh 200  1001'
+                
+step 2：   #./pjsua --config-file=pua_udp.cfg
+
+          #./sipp_send_msg_1001.sh 200  1001'
+          
+  step 3 ：   #./pjsua --config-file=pua_udp.cfg
+
+          #./sipp_send_msg_1001.sh 200  1001'
